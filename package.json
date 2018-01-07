@@ -1,0 +1,39 @@
+{
+  "name": "cli",
+  "version": "1.0.0",
+  "description": "Cli tool",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gokuldroid/cli.git"
+  },
+  "keywords": [
+    "NPP",
+    "cli",
+    "tool"
+  ],
+  "author": "Gokul",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gokuldroid/cli/issues"
+  },
+  "homepage": "https://github.com/Gokuldroid/cli#readme",
+  "preferGlobal": true,
+  "bin": {
+    "gt": "gitcli.js",
+    "clean": "clean.js",
+    "compare": "compare.js",
+    "tempnode": "temp_node.js"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "clipboardy": "^1.1.4",
+    "node-run-cmd": "^1.0.1",
+    "rimraf": "^2.6.1",
+    "xml2js": "^0.4.17"
+  }
+}
